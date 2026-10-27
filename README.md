@@ -25,7 +25,6 @@ Desarrollar un prototipo web que permita gestionar los productos y pedidos de Ti
 
 ### 5. Requerimientos funcionales
 
-## Código| Requerimiento
 - **RF-01| Registrar productos con nombre, categoría, precio y stock.**
 - **RF-02| Validar que los campos obligatorios estén completos.**
 - **RF-03| Mostrar un listado de los productos registrados.**

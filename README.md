@@ -1,43 +1,40 @@
-ANÁLISIS DEL SISTEMA – TIENDA EXPRESS
+# ANÁLISIS DEL SISTEMA – TIENDA EXPRESS
 
-1. Descripción del problema
+### 1. Descripción del problema
 
 Tienda Express es una empresa dedicada a la venta de productos tecnológicos y accesorios, tanto de manera presencial como por internet.
-
 Actualmente, la empresa registra sus ventas en una libreta y en hojas de cálculo. Este proceso puede generar errores, pérdida de información y dificultades para controlar el inventario y conocer el estado de los pedidos.
-
 Por esta razón, se propone desarrollar un sistema web que permita administrar los productos, registrar pedidos y consultar su estado de manera organizada.
 
-2. Objetivo general
-
+### 2. Objetivo general
 Desarrollar un prototipo web que permita gestionar los productos y pedidos de Tienda Express, facilitando el control del inventario y el seguimiento de las ventas.
 
-3. Objetivos específicos
+### 3. Objetivos específicos
 
-- Registrar productos con su nombre, categoría, precio y cantidad disponible.
-- Registrar pedidos con los datos del cliente, producto, cantidad y fecha.
-- Consultar los productos disponibles en el inventario.
-- Visualizar los pedidos registrados y su estado.
-- Actualizar el estado de los pedidos.
-- Validar los datos ingresados para evitar errores.
+- **Registrar productos con su nombre, categoría, precio y cantidad disponible.**
+- **Registrar pedidos con los datos del cliente, producto, cantidad y fecha.**
+- **Consultar los productos disponibles en el inventario.**
+- **Visualizar los pedidos registrados y su estado.**
+- **Actualizar el estado de los pedidos.**
+- **Validar los datos ingresados para evitar errores.**
 
-4. Usuarios del sistema
+### 4. Usuarios del sistema
 
-- Administrador o vendedor: registra productos, crea pedidos, consulta el inventario y actualiza el estado de los pedidos.
-- Cliente: proporciona sus datos para realizar un pedido. En este prototipo no tendrá una cuenta de usuario.
+- **Administrador o vendedor: registra productos, crea pedidos, consulta el inventario y actualiza el estado de los pedidos.**
+- **Cliente: proporciona sus datos para realizar un pedido. En este prototipo no tendrá una cuenta de usuario.**
 
-5. Requerimientos funcionales
+### 5. Requerimientos funcionales
 
-Código| Requerimiento
-RF-01| Registrar productos con nombre, categoría, precio y stock.
-RF-02| Validar que los campos obligatorios estén completos.
-RF-03| Mostrar un listado de los productos registrados.
-RF-04| Registrar pedidos con cliente, producto, cantidad y fecha.
-RF-05| Validar que la cantidad solicitada sea válida y exista suficiente stock.
-RF-06| Descontar del inventario las unidades correspondientes al registrar un pedido.
-RF-07| Mostrar los pedidos registrados y sus estados.
-RF-08| Permitir cambiar el estado de un pedido entre Pendiente, En proceso y Entregado.
-RF-09| Mostrar un resumen de los productos, las unidades disponibles y los pedidos pendientes de entrega.
+## Código| Requerimiento
+- **RF-01| Registrar productos con nombre, categoría, precio y stock.**
+- **RF-02| Validar que los campos obligatorios estén completos.**
+- **RF-03| Mostrar un listado de los productos registrados.**
+- **RF-04| Registrar pedidos con cliente, producto, cantidad y fecha.**
+- **RF-05| Validar que la cantidad solicitada sea válida y exista suficiente stock.**
+- **RF-06| Descontar del inventario las unidades correspondientes al registrar un pedido.**
+- **RF-07| Mostrar los pedidos registrados y sus estados.**
+- **RF-08| Permitir cambiar el estado de un pedido entre Pendiente, En proceso y Entregado.**
+- **RF-09| Mostrar un resumen de los productos, las unidades disponibles y los pedidos pendientes de entrega.**
 
 6. Requerimientos no funcionales
 
